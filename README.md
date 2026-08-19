@@ -3,6 +3,11 @@
 An unofficial native SwiftUI app for controlling compatible Bose headphones on
 macOS. It communicates directly with paired devices over Bluetooth Classic.
 
+## Download
+
+Download the latest prebuilt `.dmg` from
+[GitHub Releases](https://github.com/N1et/bose-qc-gui/releases/latest).
+
 ## Features
 
 - Listening modes: Quiet, Aware, Immersion, and Cinema
