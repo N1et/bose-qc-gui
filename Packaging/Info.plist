@@ -10,8 +10,8 @@
     <key>CFBundleDisplayName</key><string>Bose Control</string>
     <key>CFBundleIconFile</key><string>AppIcon.icns</string>
     <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleShortVersionString</key><string>0.4.2</string>
-    <key>CFBundleVersion</key><string>15</string>
+    <key>CFBundleShortVersionString</key><string>0.5.0</string>
+    <key>CFBundleVersion</key><string>16</string>
     <key>LSMinimumSystemVersion</key><string>13.0</string>
     <key>NSBluetoothAlwaysUsageDescription</key><string>Bose Control uses Bluetooth to configure your paired Bose headset.</string>
     <key>NSHighResolutionCapable</key><true/>

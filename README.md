@@ -18,7 +18,7 @@ chmod +x scripts/build-dmg.sh
 ./scripts/build-dmg.sh
 ```
 
-O artefato será criado em `build/BoseControl-0.4.2.dmg`. A assinatura gerada é
+O artefato será criado em `build/BoseControl-0.5.0-beta.1.dmg`. A assinatura gerada é
 ad-hoc para uso local. Para distribuir publicamente, use um certificado Apple
 Developer ID e notarização.
 

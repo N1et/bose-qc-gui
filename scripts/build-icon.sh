@@ -20,4 +20,7 @@ sips -z 512 512 "$MASTER" --out "$ICONSET/icon_256x256@2x.png" >/dev/null
 sips -z 512 512 "$MASTER" --out "$ICONSET/icon_512x512.png" >/dev/null
 sips -z 1024 1024 "$MASTER" --out "$ICONSET/icon_512x512@2x.png" >/dev/null
 
+# Downloaded or generated PNGs may carry provenance metadata that makes
+# iconutil reject an otherwise valid iconset.
+xattr -dr com.apple.provenance "$ICONSET" 2>/dev/null || true
 iconutil -c icns "$ICONSET" -o "$OUTPUT"

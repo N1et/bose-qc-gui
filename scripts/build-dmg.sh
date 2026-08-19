@@ -22,7 +22,7 @@ mkdir -p "$DMG_STAGE"
 ditto "$APP_DIR" "$DMG_STAGE/$APP_NAME.app"
 ln -sfn /Applications "$DMG_STAGE/Applications"
 
-DMG_PATH="$BUILD_DIR/BoseControl-0.4.2.dmg"
+DMG_PATH="$BUILD_DIR/BoseControl-0.5.0-beta.1.dmg"
 rm -f "$DMG_PATH"
 hdiutil create -volname "$APP_NAME" -srcfolder "$DMG_STAGE" -ov -format UDZO "$DMG_PATH"
 
