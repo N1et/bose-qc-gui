@@ -3,6 +3,9 @@
 An unofficial native SwiftUI app for controlling compatible Bose headphones on
 macOS. It communicates directly with paired devices over Bluetooth Classic.
 
+<img width="2792" height="1718" alt="image" src="https://github.com/user-attachments/assets/f93fad87-ea20-49e3-b45f-fc87379fd587" />
+
+
 ## Download
 
 Download the latest prebuilt `.dmg` from
