@@ -9,7 +9,7 @@ macOS. It communicates directly with paired devices over Bluetooth Classic.
 ## Download
 
 Download the latest prebuilt `.dmg` from
-[GitHub Releases](https://github.com/N1et/bose-qc-gui/releases/latest).
+[GitHub Releases](https://github.com/N1et/bose-qc-gui/releases).
 
 ## Features
 
