@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key><string>en</string>
+    <key>CFBundleExecutable</key><string>BoseControl</string>
+    <key>CFBundleIdentifier</key><string>dev.medeiros.bosecontrol</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleName</key><string>Bose Control</string>
+    <key>CFBundleDisplayName</key><string>Bose Control</string>
+    <key>CFBundleIconFile</key><string>AppIcon.icns</string>
+    <key>CFBundlePackageType</key><string>APPL</string>
+    <key>CFBundleShortVersionString</key><string>0.4.2</string>
+    <key>CFBundleVersion</key><string>15</string>
+    <key>LSMinimumSystemVersion</key><string>13.0</string>
+    <key>NSBluetoothAlwaysUsageDescription</key><string>Bose Control uses Bluetooth to configure your paired Bose headset.</string>
+    <key>NSHighResolutionCapable</key><true/>
+    <key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
+</dict>
+</plist>
