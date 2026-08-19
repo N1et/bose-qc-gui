@@ -1,37 +1,42 @@
-# Bose Control para macOS
+# Bose Control for macOS
 
-Aplicativo nativo em SwiftUI para controlar Bose QuietComfort Ultra Headphones
-2 pelo Bluetooth clássico do macOS. O app permite escolher um fone pareado,
-trocar modo, ajustar cancelamento de ruído, áudio imersivo e equalizador, além de
-ler a bateria.
+An unofficial native SwiftUI app for controlling compatible Bose headphones on
+macOS. It communicates directly with paired devices over Bluetooth Classic.
 
-O ícone de headphones na menu bar oferece acesso rápido a modos, Noise Control
-e Immersive Audio. A janela principal continua disponível para EQ e controles
-completos.
+## Features
 
-## Gerar o `.dmg`
+- Listening modes: Quiet, Aware, Immersion, and Cinema
+- Noise control level
+- Immersive audio: Off, Still, and Motion
+- Bass, mid, and treble equalizer
+- Battery status
+- Native macOS menu bar controls with Liquid Glass on macOS 26
 
-Requisitos: macOS 13 ou mais recente e Xcode/Command Line Tools.
+## Requirements
 
-```sh
-chmod +x scripts/build-dmg.sh
-./scripts/build-dmg.sh
-```
+- macOS 13 or later
+- Xcode or Xcode Command Line Tools
+- A supported headset paired in System Settings
 
-O artefato será criado em `build/BoseControl-0.5.0-beta.1.dmg`. A assinatura gerada é
-ad-hoc para uso local. Para distribuir publicamente, use um certificado Apple
-Developer ID e notarização.
-
-O fone deve estar pareado no Ajustes do Sistema e, para aplicar configurações,
-conectado ao Mac. A primeira abertura solicita acesso ao Bluetooth.
-
-## Desenvolvimento
+## Build
 
 ```sh
 swift test
-swift run BoseControl
+./scripts/build-dmg.sh
 ```
 
-A especificação da comunicação está em
-[`docs/PROTOCOLO-BMAP.md`](docs/PROTOCOLO-BMAP.md). O projeto antigo permanece em
-`bose-cli/` apenas como referência.
+The installer is generated at `build/BoseControl-0.5.0-beta.3.dmg`. Local builds
+use ad-hoc code signing. Public distribution requires an Apple Developer ID
+certificate and notarization.
+
+The app requests Bluetooth access when opened for the first time. The headset
+must be connected to apply changes.
+
+Protocol notes are available in
+[`docs/PROTOCOLO-BMAP.md`](docs/PROTOCOLO-BMAP.md).
+
+## Disclaimer
+
+This is an independent, unofficial project. It is not affiliated with or
+endorsed by Bose Corporation. Bose and QuietComfort are trademarks of their
+respective owner.
